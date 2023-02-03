@@ -1,0 +1,108 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1 {
+  font-family: "Montserrat";
+  /* font-family: "Montserrat-Black"; */
+  font-size: 4rem;
+  line-height: 1.5;
+}
+footer i {
+  margin: 20px 10px;
+}
+
+.bg-white {
+  background-color: #ef8172;
+  color: #fff;
+}
+.bg-colored {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#title .container-fluid{
+  padding: 2% 15% 7%;
+}
+.navbar {
+  padding: 0 0 5rem;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+.container {
+  padding: 0;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.navbar-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+}
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 10%;
+}
+@media (max-width: 1028px) {
+  .title-img {
+    width: 20%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features Section */
+#features {
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+}
+.features-box {
+  padding: 2rem;
+}
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.features-icon:hover {
+  color: #ff4c68;
+}
+ /* Testimonials Section */
+ #testimonials {
+  background-color: #ef8172;
+  color: #fff;
+ }
+ .testimonial-image {
+   width: 10%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+ #press img {
+   width: 10%;
+   padding: 0 30px 50px 30px;
+ }
+
+ /* Pricing Section */
+.card-col {
+  padding: 3% 2%;
+}
+
+/* Footer Section */
+#cta {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+#footer {
+  color: gray;
+  font-size: 0.7rem;
+}
